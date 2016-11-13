@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
 	int j,val,n;
 	int a[20];
@@ -27,5 +27,5 @@ int main()
     	a[i] = b[i];
    }
 	printf("%d ",b[j+1]);
-	return 0;
+	
 }
