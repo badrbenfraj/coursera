@@ -7,12 +7,13 @@ header{
 
 h1{
 	font-size: 250%;
+	margin: 20px;
 }
 
 .header{
 
 	width: 25%;
-	height: 150px;
+	height: 155px;
 	overflow: auto;
 	margin: 30px;
 	border: 1px solid black;
@@ -26,6 +27,24 @@ h1{
 	background-color: red;
 	float: right;
 	margin: 0;
+}
+
+#p1, #p2 ,#p3{
+	text-align: left;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+.chicken{
+	background-color: #ca8486;
+}
+
+.beef{
+	background-color: #b23034;
+}
+
+.sushi{
+	background-color: #dec886;
 }
 
 p{
