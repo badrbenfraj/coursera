@@ -1,5 +1,6 @@
 *{
 	margin: 0;
+	padding: 0;
 }
 header{
 	text-align: center;
@@ -49,4 +50,8 @@ h1{
 
 p{
 	margin-top: 20px;
+}
+
+#content{
+	margin: 0 auto;
 }
