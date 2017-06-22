@@ -14,11 +14,10 @@ nav h1{
 }
 
 .header{
-
 	width: 25%;
 	height: 155px;
 	overflow: auto;
-	margin: 30px;
+	margin: 20px;
 	border: 1px solid black;
 	background-color: gray;
 	display: inline-block;
@@ -27,28 +26,16 @@ nav h1{
 .title{
 	width: 40%;
 	padding: 4px;
-	background-color: red;
-	float: right;
-	margin: 0;
-	font-family: "Times New Roman", Georgia, Serif;
+	margin: 0 auto;
+	font-family: 'Spectral', serif;
+	font-size: 18px;
 }
 
 #p1, #p2 ,#p3{
 	text-align: left;
+	font-size: 14px;
 	margin-left: 15px;
-	margin-top: 30px;
-}
-
-.chicken{
-	background-color: #ca8486;
-}
-
-.beef{
-	background-color: #b23034;
-}
-
-.sushi{
-	background-color: #dec886;
+	margin-top: 0;
 }
 
 p{
@@ -67,3 +54,44 @@ p{
 	border: 0;
 }
 
+@media(max-width: 992px){
+	.header{
+		width: 35%;
+		margin:3%;
+	}
+	#third{
+		width: 76.5%;
+	}
+	header{
+		text-align: center
+	}
+	#content{
+		margin: 0 auto 30px;
+	}
+}
+
+@media(max-width:767px){
+	header{
+		text-align: center;
+
+	}
+	nav{
+		margin: 0;
+	}
+	.header{
+		display: block;
+		width: 85%;
+		margin:0 auto 20px;
+	}
+	#third{
+		width: 85%;
+	}
+	#content{
+		margin: 0 auto 30px;
+
+	}
+	.collapsed{
+		margin: 15px;
+	}
+
+}
