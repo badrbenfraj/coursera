@@ -58,6 +58,10 @@ p{
     color: #000;
 }
 
+.navbar-toggle:hover {
+    background-color: #808080;
+} 
+
 @media(max-width: 992px){
 	.header{
 		width: 35%;
